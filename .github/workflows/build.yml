@@ -1,6 +1,8 @@
 name: Build using CMake
 on:
   pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
